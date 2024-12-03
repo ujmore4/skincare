@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Start Header -->
+
+    <header>
+        <nav>
+            <div class="logo">UMJA PRO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="benefit.html">Benefits</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i
+                        class="fa-solid fa-bars" style="color: #4a4a4a;"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- End Header -->
+    <!-- Start Menubar -->
+
+    <div id="id01" class="modal">
+        <div class="menubar animate">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="benefit.html">Benefits</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i onclick="document.getElementById('id01').style.display='none'" class="fa-solid fa-right-to-bracket"
+                style="color: palevioletred;"></i>
+        </div>
+    </div>
+
+    <!-- End Menubar -->
+    <!-- Start Product -->
+
+    <section id="scroll-product" class="latest-products">
+        <div class="section-header">
+            <h2>Latest Products</h2>
+        </div>
+
+        <div class="products-grid">
+            <a class="product-item" href="#">
+                <img src="img/product_01.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="img/product_02.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="img/product_03.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="img/product_04.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="img/product_05.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="img/product_04.jpg" alt="Product Image">
+                <h3>Tittle goes here</h3>
+                <p class="price">$25.75</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- End Product -->
+
+</body>
+
+</html>
